@@ -14,24 +14,24 @@ li{
 
 }
 li a{
-    color: rgb(237, 12, 12);
+    color: lightgrey;
     padding: 20px;
     display: block;
     text-align: right;
     text-decoration: none;
     font-family: monospace;
     font-size: large;
-    transition-duration: 0.9s;
+
 }
 li a:hover{
     background-color: black;
-    color: aqua;
+    color: cornflowerblue;
     font-style: italic;
     font-weight: 1000;
-    font-size: xx-large;
+    
 }
 .card{
-    background-color: coral;
+    background-color: cornflowerblue;
     border-radius: 20px;
     width: 30%;
     margin-bottom: 20px;
@@ -40,9 +40,10 @@ li a:hover{
     height: 500px;
     text-align: center;
     
+    
 }
 
 .card:hover{
-    box-shadow: 10px 10px 10px 0 rgba(0, 225, 255, 0.24), 0 20px 20px rgba(5, 205, 255, 0.19);
+    box-shadow: 10px 10px 10px 0 rgba(4, 125, 255, 0.24), 0 20px 20px rgba(5, 159, 255, 0.19);
    
 }
