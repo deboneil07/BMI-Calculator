@@ -31,16 +31,18 @@ li a:hover{
     font-size: xx-large;
 }
 .card{
-    background-color: antiquewhite;
+    background-color: coral;
     border-radius: 20px;
     width: 30%;
     margin-bottom: 20px;
     font-size: medium;
-    transition-duration: 0.5s;
+    transition-duration: 0.9s;
+    height: 500px;
+    text-align: center;
     
 }
 
 .card:hover{
-    box-shadow: 10px 10px 10px 0 rgba(255, 2, 2, 0.24), 0 20px 20px 0 rgba(255, 0, 0, 0.19);
-    
+    box-shadow: 10px 10px 10px 0 rgba(0, 225, 255, 0.24), 0 20px 20px rgba(5, 205, 255, 0.19);
+   
 }
