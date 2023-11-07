@@ -56,7 +56,14 @@ li a:hover{
     position: relative;
     right: 90px;
     top: 67px;
-    scale: 120%;    
+    scale: 120%; 
+    transition-duration: 0.9s;
+     
+}
+#inp:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    scale: 121%;
+
 }
 #inp_click{
     position: relative;
@@ -64,8 +71,16 @@ li a:hover{
     left: -51px;
     background-color: black;
     color: azure;
+    transition-duration: 0.9s;
+    
 
 }
+
+#inp_click:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    scale: 121%;
+}
+
 input{
 
     background-color: rgb(0, 0, 0);
@@ -73,7 +88,6 @@ input{
 
 }
 button{
-    
     scale: 120%; 
 }
 
