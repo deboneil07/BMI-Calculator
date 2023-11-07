@@ -30,3 +30,17 @@ li a:hover{
     font-weight: 1000;
     font-size: xx-large;
 }
+.card{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    font-size: medium;
+    transition-duration: 0.5s;
+    
+}
+
+.card:hover{
+    box-shadow: 10px 10px 10px 0 rgba(255, 2, 2, 0.24), 0 20px 20px 0 rgba(255, 0, 0, 0.19);
+    
+}
