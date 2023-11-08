@@ -62,9 +62,19 @@ li a:hover{
     
      
 }
+#inp3{
+    position: relative;
+    right: -10px;
+    top: 280px;
+    scale: 180%; 
+    transition-duration: 0.9s;
+    border-radius: 50px;
+    
+     
+}
 #inp2{
     position: relative;
-    right: 53px;
+    right: 55px;
     top: 127px;
     scale: 180%; 
     transition-duration: 0.9s;
@@ -76,6 +86,10 @@ li a:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
     scale: 182%;
 
+}
+#inp3:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    scale: 182%;
 }
 #inp2:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
