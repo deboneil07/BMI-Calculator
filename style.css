@@ -54,7 +54,7 @@ li a:hover{
 }
 #inp{
     position: relative;
-    right: 35px;
+    right: -119px;
     top: 67px;
     scale: 180%; 
     transition-duration: 0.9s;
@@ -64,8 +64,8 @@ li a:hover{
 }
 #inp2{
     position: relative;
-    right: 35px;
-    top: 67px;
+    right: 53px;
+    top: 127px;
     scale: 180%; 
     transition-duration: 0.9s;
     border-radius: 50px;
@@ -85,33 +85,21 @@ li a:hover{
 }
 #inp_click{
     position: relative;
-    top: 66px;
-    left: -30px;
+    top: 198px;
+    left: -158px;
     background-color: black;
     color: azure;
     transition-duration: 0.9s;
     
 
 }
-#inp_click2{
-    position: relative;
-    top: 66px;
-    left: -30px;
-    background-color: black;
-    color: azure;
-    transition-duration: 0.9s;
-    
 
-}
 
 #inp_click:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
     scale: 121%;
 }
-#inp_click2:hover{
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
-    scale: 121%;
-}
+
 
 input{
 
