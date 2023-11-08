@@ -80,16 +80,18 @@ li a:hover{
 #inp2:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
     scale: 182%;
-    color: aquamarine;
+    
 
 }
 #inp_click{
     position: relative;
-    top: 198px;
-    left: -158px;
+    top: 220px;
+    left: -170px;
     background-color: black;
     color: azure;
     transition-duration: 0.9s;
+    border-radius: 20px;
+    scale: 180%;
     
 
 }
@@ -97,7 +99,7 @@ li a:hover{
 
 #inp_click:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
-    scale: 121%;
+    scale: 182%;
 }
 
 

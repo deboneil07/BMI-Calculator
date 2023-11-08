@@ -1,11 +1,6 @@
-function mass(){
-    weight = document.getElementById("inp");
-}
-function length(){
-    height = document.getElementById("inp2");
-}
-
 function result(){
-    output = weight + height;
-    document.writeln(output);
+    weight = parseFloat(document.getElementById("inp").value);
+    height = parseFloat(document.getElementById('inp2').value);
+    output = (weight + height);
+    alert(output + " KG");
 }
