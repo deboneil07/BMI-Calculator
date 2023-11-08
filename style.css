@@ -54,21 +54,49 @@ li a:hover{
 }
 #inp{
     position: relative;
-    right: 90px;
+    right: 35px;
     top: 67px;
-    scale: 120%; 
+    scale: 180%; 
     transition-duration: 0.9s;
+    border-radius: 50px;
+    
+     
+}
+#inp2{
+    position: relative;
+    right: 35px;
+    top: 67px;
+    scale: 180%; 
+    transition-duration: 0.9s;
+    border-radius: 50px;
+    
      
 }
 #inp:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
-    scale: 121%;
+    scale: 182%;
+
+}
+#inp2:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    scale: 182%;
+    color: aquamarine;
 
 }
 #inp_click{
     position: relative;
     top: 66px;
-    left: -51px;
+    left: -30px;
+    background-color: black;
+    color: azure;
+    transition-duration: 0.9s;
+    
+
+}
+#inp_click2{
+    position: relative;
+    top: 66px;
+    left: -30px;
     background-color: black;
     color: azure;
     transition-duration: 0.9s;
@@ -77,6 +105,10 @@ li a:hover{
 }
 
 #inp_click:hover{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+    scale: 121%;
+}
+#inp_click2:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
     scale: 121%;
 }

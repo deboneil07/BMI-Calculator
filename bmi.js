@@ -1,8 +1,11 @@
-function hello(){
-    capture = document.getElementById("inp");
-    confirm("hello " + capture.value);
-    capture.value = "";
-    
-    
+function mass(){
+    weight = document.getElementById("inp");
+}
+function length(){
+    height = document.getElementById("inp2");
+}
 
+function result(){
+    output = weight + height;
+    document.writeln(output);
 }
