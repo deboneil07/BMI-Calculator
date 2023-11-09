@@ -64,7 +64,7 @@ li a:hover{
 }
 #inp3{
     position: relative;
-    right: -10px;
+    right: -32px;
     top: 280px;
     scale: 180%; 
     transition-duration: 0.9s;
@@ -100,13 +100,14 @@ li a:hover{
 #inp_click{
     position: relative;
     top: 220px;
-    left: -170px;
+    left: -144px;
     background-color: black;
     color: azure;
     transition-duration: 0.9s;
     border-radius: 20px;
     scale: 180%;
-    
+    border-color:aqua;    
+    border : 100%;
 
 }
 
@@ -114,6 +115,7 @@ li a:hover{
 #inp_click:hover{
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
     scale: 182%;
+    color: aqua;
 }
 
 
@@ -125,5 +127,24 @@ input{
 }
 button{
     scale: 120%; 
+}
+
+#reset{
+    position: relative;
+    top: 199px;
+    left: -170px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.9s;
+    border-radius: 20px;
+    scale: 180%;
+    border-color:rgb(0, 255, 21);    
+    border : 100%;
+    
+}
+#reset:hover{
+    color: chartreuse;
+    scale: 182%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
 }
 
