@@ -64,7 +64,7 @@ body{
 #inp_click{
     position: relative;
     top: 220px;
-    left: -144px;
+    left: -170px;
     background-color: black;
     color: azure;
     transition-duration: 0.9s;
@@ -96,7 +96,7 @@ button{
 #reset{
     position: relative;
     top: 199px;
-    left: -170px;
+    left: -200px;
     background-color: black;
     color: rgb(255, 255, 255);
     transition-duration: 0.9s;
