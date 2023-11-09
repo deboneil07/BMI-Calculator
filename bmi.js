@@ -23,10 +23,13 @@ function result() {
       result_button.style.color = "#EF0107";
       result_button.style.borderColor = "#EF0107";
       document.getElementById("card").style.boxShadow = "0px 0px 30px #EF0107";
+      document.getElementById("output_text").innerHTML = "Unhealthy";
     } else {
       document.getElementById("card").style.backgroundColor = "#32de84";
       document.getElementById("card").style.boxShadow = "0px 0px 30px #32de84";
       document.getElementById("inp3").style.color = "white";
+      document.getElementById("output_text").innerHTML = "Fit";
+
     }
   } else {
     if (weight === 0 || height === 0) {
@@ -35,6 +38,7 @@ function result() {
 
     document.getElementById("inp3").value = "error";
   }
+
 }
 
 function reset() {
@@ -48,4 +52,6 @@ function reset() {
   document.getElementById("inp_click").style.color = "white";
   document.getElementById("inp_click").style.borderColor = "aqua";
   document.getElementById("unit").value = "Metric";
+  document.getElementById("output_text").innerHTML = "";
+
 }
