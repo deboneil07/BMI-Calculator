@@ -18,12 +18,12 @@
         <div style=" height: 40px; position: relative; bottom: 20px; border-top-right-radius: 20px; border-top-left-radius: 20px;">
             <h1 style="font-family: Helvetica; color: black; position: relative; top: 20px;">BMI CALCULATOR</h1>
             <div>
-                <input id="inp" type="text" value="" placeholder="Enter your weight." >
-                <input type="text" id="inp2" value="" placeholder="Enter your height.">
-                <button  id="inp_click" onclick=" return result()">Submit</button>
-                <input type="text" id="inp3" readonly placeholder="Result.">
+                <input style="font-family: monospace;" id="inp" type="text" value="" placeholder="Enter your weight." >
+                <input style="font-family: monospace;"  type="text" id="inp2"  value="" placeholder="Enter your height.">
+                <button style="font-family: monospace;"  id="inp_click" onclick=" return result()">Submit</button>
+                <input style="font-family: monospace;" type="text" id="inp3" readonly placeholder="Result.">
 
-                <button id="reset" onclick="reset()">Reset</button>
+                <button style="font-family: monospace;" id="reset" onclick="reset()">Reset</button>
 
                 
                 
@@ -31,11 +31,11 @@
             </div>
             <label for="unit"></label>
 
-                <select id="unit" style="background-color: black;color: azure;position: relative;bottom: -177px;left: 150px; scale: 170%; border-radius: 20px; border-color: blueviolet; border-width: 3px  ;">
-                    <option value="Metric" style="background-color: black; color: azure;">Metric</option>
-                    <option value="Imperial">Imperial</option>
+                <select id="unit" style="background-color: black;color: azure;position: relative;bottom: -177px;left: 150px; scale: 170%; border-radius: 20px; border-color: blueviolet; border-width: 3px ; font-family: monospace  ;">
+                    <option value="Metric" style="background-color: black; color: azure; font-family: monospace;">Metric</option>
+                    <option value="Imperial" style="font-family: monospace;">Imperial</option>
                 </select>  
-            <h3 id="output_text"style="position:relative;bottom: -290px;left: -9px">  </h3>
+            <h3 id="output_text"style="position:relative; font-size: 40px; font-family: monospace ;bottom: -250px;left: -9px;"></h3>
             
                 
                 

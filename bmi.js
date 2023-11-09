@@ -28,7 +28,7 @@ function result() {
       document.getElementById("card").style.backgroundColor = "#32de84";
       document.getElementById("card").style.boxShadow = "0px 0px 30px #32de84";
       document.getElementById("inp3").style.color = "white";
-      document.getElementById("output_text").innerHTML = "Fit";
+      document.getElementById("output_text").innerHTML = "Healthy";
 
     }
   } else {
