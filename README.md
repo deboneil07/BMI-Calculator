@@ -1,5 +1,4 @@
-# CodeChef-Project
-Project For CodeChef Recruitment Task.
+# BMI Calculator
 
 This is a very simple BMI Calculator App. Made using `HTML CSS` & `JAVASCRIPT.`
 The site has been hosted and can be accessed using the link on the top right section `ABOUT`
