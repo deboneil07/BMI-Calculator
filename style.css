@@ -5,7 +5,7 @@ body{
     background-color: cornflowerblue;
     border-radius: 20px;
     width: 30%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: medium;
     transition-duration: 0.9s;
     height: 500px;
@@ -110,5 +110,19 @@ button{
     color: chartreuse;
     scale: 182%;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.24);
+}
+#footer-note{
+    font-family: monospace;
+    position: absolute;
+    bottom: 20px;
+    left: 555px;
+    font-size: larger;
+
+}
+#icons{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
 }
 

@@ -42,7 +42,6 @@ function result() {
 }
 
 function reset() {
-
   document.getElementById("inp").value = "";
   document.getElementById("inp2").value = "";
   document.getElementById("inp3").value = "";
